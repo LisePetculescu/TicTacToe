@@ -25,7 +25,7 @@ function displayBoard(model) {
   for (let row = 0; row < 3; row++) {
     for (let col = 0; col < 3; col++) {
       const value = model.readFromCell(row, col);
-      console.log(`row: ${row} col: ${col} value: ${value}`);
+    //   console.log(`row: ${row} col: ${col} value: ${value}`);
       const visuelCell = document.querySelector(`[data-row="${row}"][data-col="${col}"]`);
       visuelCell.textContent = value;
     }

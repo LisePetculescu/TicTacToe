@@ -16,11 +16,11 @@ function writeToCell(row, col, value) {
 }
 
 function readFromCell(row, col) {
-  console.log("read");
+//   console.log("read");
   return grid[row][col];
 }
 
 function dump() {
   console.log("dump");
-  console.log(grid);
+  console.table(grid);
 }

@@ -1,43 +1,43 @@
-
 #board {
-    display: grid;
-    grid-template-columns: repeat(3, max-content);
-    gap: 0.5em;
-    background-color: white;
-    border: 5px black solid;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  gap: 0.5em;
+  background-color: white;
+  border: 5px black solid;
+  padding: 20px;
 }
 
 .cell {
-    background-color: rgb(76, 156, 76);
-    color: pink;
-    border: 5px green solid;
-    font-size: 100px;
-    padding: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
-    cursor: pointer;
+  background-color: rgb(76, 156, 76);
+  color: pink;
+  border: 5px green solid;
+  font-size: 100px;
+  font-weight: 800;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  cursor: pointer;
 }
 
 .cell:hover {
-    background-color: rgb(29, 186, 29);
-    color: rgb(249, 82, 110);
-    border: 5px rgb(9, 238, 9) solid;
-    font-size: 100px;
-    padding: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
-    transform: scale(1.07);
-    cursor: pointer;
+  background-color: rgb(29, 186, 29);
+  color: rgb(249, 82, 110);
+  border: 5px rgb(9, 238, 9) solid;
+  font-size: 100px;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  transform: scale(1.07);
+  cursor: pointer;
 }
 
 body {
-    display: grid;
-    justify-content: center;
-    background-color: rgb(99, 167, 99);
+  display: grid;
+  justify-content: center;
+  background-color: rgb(99, 167, 99);
 }
 
 h1 {
-    display: grid;
-    justify-self: center;
+  display: grid;
+  justify-self: center;
 }

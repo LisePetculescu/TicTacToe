@@ -5,9 +5,9 @@ function init() {
 }
 
 const grid = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9]
+  [0, 0, 0],
+  [0, 0, 0],
+  [0, 0, 0]
 ];
 
 function writeToCell(row, col, value) {
@@ -23,7 +23,4 @@ function readFromCell(row, col) {
 function dump() {
   console.log("dump");
   console.log(grid);
-  for (const cell of grid) {
-    console.log(cell);
-  }
 }

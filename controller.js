@@ -1,7 +1,7 @@
 import * as view from "./view.js";
 import * as model from "./model.js";
 
-export { init };
+export { init, setCell };
 
 init();
 
@@ -12,4 +12,11 @@ function init() {
 
   // det er fyfy, men det er godt til testning i consollen
   window.model = model;
+}
+
+function setCell(row, col) {
+  model.writeToCell(row, col, 1);
+  model.dump();
+
+  view.displayBoard(model);
 }

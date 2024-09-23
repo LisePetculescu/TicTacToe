@@ -34,7 +34,8 @@
 body {
   display: grid;
   justify-content: center;
-  background-color: rgb(99, 167, 99);
+  background-color: rgb(215, 169, 207);
+  /* background-color: rgb(99, 167, 99); */
 }
 
 h1 {

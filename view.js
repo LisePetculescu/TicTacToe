@@ -10,10 +10,10 @@ function init() {
 function clickCell(event) {
   console.log("cellen er klikket");
 
-  console.log("klik på: ", event.target.dataset);
+//   console.log("klik på: ", event.target.dataset);
   const row = event.target.dataset["row"];
   const col = event.target.dataset["col"];
   //   console.log("x-cord: ", row);
   //   console.log("y-cord: ", col);
-  console.log(`clicked on row: ${row} & col: ${col}`);
+  console.log(`clicked on row: ${row} col: ${col}`);
 }

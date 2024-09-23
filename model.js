@@ -11,7 +11,7 @@ const grid = [
 ];
 
 function writeToCell(row, col, value) {
-  console.log("write");
+//   console.log("write");
   grid[row][col] = value;
 }
 
